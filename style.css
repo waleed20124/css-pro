@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background-image: url(./daniel-leone-g30P1zcOzXo-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f2c078;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.logo:hover , .one:hover{
+  color: #ff9b45;
+  cursor: pointer;
+}
+
+.links ul{
+  display: flex;
+  gap: 25px;
+
+
+}
+.links ul li{
+  list-style-type: none;
+  font-size: 1.1rem;
+  color: #ffff ;
+  transition: 0.5s;
+  border-radius: 9999px;
+  padding: 5px;
+}
+button{
+  height: 32px;
+  border: none;
+  width: 115px;
+  border-radius: 99999px;
+  font-size: 1rem;
+  background-color: #FF9B45;
+  color: white;
+  font-weight: 500;
+  transition: 0.4s;
+}
+button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+}
+.one{
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  transition: 0.4s;
+}
+.tow{
+  color: white;
+  font-size: 1.1rem;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.links ul li:hover {
+  background-color: #FF9B45;
+}

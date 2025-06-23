@@ -2,10 +2,10 @@ body {
   display: flex;
   font-family: "Roboto", sans-serif;
   background-image: url(./daniel-leone-g30P1zcOzXo-unsplash.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   flex-direction: column;
-    height: 100vh;
+  height: 100vh;
 }
 
 header {
@@ -37,7 +37,9 @@ header {
   color: #ffff ;
   transition: 0.5s;
   border-radius: 9999px;
-  padding: 5px;
+  padding: 5px 10px;
+  
+
 }
 button{
   height: 32px;
